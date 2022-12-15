@@ -1,6 +1,6 @@
 DO_BOX_URL = "https://github.com/devopsgroup-io/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 PRIVATE_KEY_PATH = "./id_rsa"
-TOKEN = "dop_v1_85d7e08f933f993d046fd578043ecc8b21f3bec3ba17baf94603e07d66f00535"
+TOKEN = "*"
 
 Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/vagrant", type: "rsync"
